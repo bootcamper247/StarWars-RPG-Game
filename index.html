@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Star Wars RPG Game</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="mainContent">
+            <h1><bold>Star Wars RPG</bold></h1>
+            <br>
+            <div id="topRow" style="float: left;"></div>
+            <div id="obi" class="charBtn">
+                <p class="charBtnTxt">obi</p>
+                <img src="assets/images/obi.png" alt="obi">
+                <br>
+                <p id="hp_obi" class="charBtnTxt">123</p>
+            </div>
+            <div id="luke" class="charBtn">
+                <p class="charBtnTxt">luke</p>
+                <img src="assets/images/luke.png" alt="luke">
+                <br>
+                <p id="hp_luke" class="charBtnTxt">123</p>
+            </div>
+            <div id="darth" class="charBtn">
+                <p class="charBtnTxt">darth</p>
+                <img src="assets/images/darth.png" alt="darth">
+                <br>
+                <p id="hp_darth" class="charBtnTxt">123</p>
+            </div>
+            <div id="yoda" class="charBtn">
+                <p class="charBtnTxt">yoda</p>
+                <img src="assets/images/yoda.png" alt="yoda">
+                <br>
+                <p id="hp_yoda" class="charBtnTxt">123</p>
+            </div>
+            <br>
+            <h2><bold>Your Character</bold></h2>
+
+            <div id="available"></div>
+            <br><br><br><br><br><br><br><br>
+            <h2>Enemies Available To Attack</h2>
+
+            <div id="fightSection"></div>
+            <br><br><br><br><br><br><br><br>
+            <h2>Fight Section</h2>
+            <br>
+            <button id="attack">Attack</button>
+            <br><br>
+            <h2>Defender</h2>
+            <div id="defender"></div>
+
+            <div id="damageTxt" style="clear: both">
+                <br><br>
+                <p id="line1"></p>
+                <p id="line2"></p>
+            </div>
+            <button id="reset">Reset</button>
+
+        </div>
+    </div>
+
+    <script src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
